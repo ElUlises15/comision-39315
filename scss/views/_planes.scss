@@ -1,0 +1,52 @@
+.container-grid{
+    justify-content: center;
+    // width:100%;
+    padding:1rem 3rem 1rem 3rem;
+    display: grid;
+    grid-template-columns:1fr  ;
+    grid-template-rows:1fr 1fr 1fr ; 
+}
+.plan-nutri{background-color: #18122B;
+    margin: 1rem 3rem 1rem 3rem;
+    padding:1rem 3rem 1rem 3rem;
+    border: #000000 0.5rem solid;
+    text-align: center;
+}
+.plan-body{background-color: #18122B;
+    margin: 1rem 3rem 1rem 3rem;
+    padding:1rem 3rem 1rem 3rem;
+    border: #000000 0.5rem solid;
+    text-align: center
+}
+.plan-power{background-color:#18122B ;
+    margin: 1rem 3rem 1rem 3rem;
+    padding:1rem 3rem 1rem 3rem;
+    border: #000000 0.5rem solid;
+    text-align: center
+}
+
+.planesEntrenamiento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #18122B;
+    margin: 1rem 3rem 1rem 3rem;
+    padding:1rem 3rem 1rem 3rem;
+    border: #000000 0.5rem solid;
+    
+}
+.planesEntrenamientoEspecificos{
+    height: 30rem;
+    width: 60rem;
+    text-align: center;
+}
+.planesEntrenamientoEspecificos:hover{
+    width: 50rem;
+    height: 25rem;
+    border: #ffffff 10px solid;}
+.PlanesTitulo{
+    text-align: center;
+    background-color: #000000;
+    margin: 0 3rem 0 3rem;
+    padding:1rem 3rem 1rem 3rem
+}

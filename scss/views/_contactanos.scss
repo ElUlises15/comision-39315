@@ -1,0 +1,55 @@
+.CardRedes{
+    padding:3rem 0 3rem 0;
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template: repeat(2,30vh) / repeat(2,60vh);
+    grid-area: 
+    "CardTwitter CardFacebook"
+    "CardWhatsapp CardInstagram"
+    ;
+    column-gap: 15px;
+    row-gap: 10px;
+}
+.CardTwitter{
+    margin: 1rem 3rem 1rem 3rem;
+    padding:1rem 3rem 1rem 3rem;
+    border: #000000 0.5rem solid;
+    text-align: center;
+    background-color: #18122B;
+}
+.CardFacebook{
+    margin: 1rem 3rem 1rem 3rem;
+    padding:1rem 3rem 1rem 3rem;
+    border: #000000 0.5rem solid;
+    text-align: center;
+    background-color: #18122B;
+}
+.CardWhatsapp{
+    margin: 1rem 3rem 1rem 3rem;
+    padding:1rem 3rem 1rem 3rem;
+    border: #000000 0.5rem solid;
+    text-align: center;
+    background-color: #18122B;
+}
+.CardInstagram{
+    margin: 1rem 3rem 1rem 3rem;
+    padding:1rem 3rem 1rem 3rem;
+    border: #000000 0.5rem solid;
+    text-align: center;
+    background-color: #18122B;
+}
+.LinkRedes{color: aliceblue;
+    text-decoration: none;
+    display: block;}
+
+.LinkRedes:hover{color: #635985;
+    font-size: 1.4rem;}
+
+.redesGrande{border-radius: 50%;
+    height: 10rem;}
+
+h2{text-align: center;}
+
+button{font-size: 1rem;}
+

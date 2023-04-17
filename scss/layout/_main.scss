@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: sans-serif;
+} 
+body{background-color: #635985;
+    color: white;}
+
+.plan{width: 15rem;
+    border-radius: 50%;
+    border: #000000 solid 0.5rem;}
+
+.plan:hover{width: 20rem;}
+
+
+article{background-color: #18122B;
+    height: 30vh;}
+
+.etiquetaTexto{font-size: 1rem;}
+
+.logoPagina1{border-radius: 50%;}
+
+.ContainerTips{
+    display: flex;
+    background-color: #18122B;
+    justify-content: center;
+    align-items: center;
+    border: #000000 0.5rem solid;
+    margin: 1rem 3rem 1rem 3rem;
+    padding:1rem 3rem 1rem 3rem ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}

@@ -1,0 +1,49 @@
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    border: #000000 solid 0.3rem;
+}
+.pestañasMenu{
+    font-size: 2rem;
+    text-decoration: none;
+}
+.logoWeb{width: 4rem;
+    border-radius: 50%;} 
+.menu{
+    background-color: #18122B;
+    width: 100%;
+    padding-top: 0.5rem;
+    
+}
+.ElementosMenu{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+ul li a{
+    color:aliceblue;
+}
+ul li a:hover{
+    color: #635985;
+}
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: black;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-size: 1rem;
+    margin: 1px;
+    color: #000000;
+    background-color: aliceblue;
+}

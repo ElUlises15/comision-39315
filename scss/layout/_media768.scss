@@ -1,0 +1,235 @@
+@media screen and (max-width:768px){
+    /********************* HEADER******************************/
+    header{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        position: sticky;
+        z-index: 2;
+        top: 0;
+        border: #000000 solid 0.3rem;
+    }
+    .menu{
+        background-color: #18122B;
+        width: 100%;
+        padding-top: 0.5rem;
+    }
+    .pestañasMenu{
+        font-size: 1.3rem;
+        text-decoration: none;
+    }
+    .ElementosMenu{
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+    ul li a{
+        color:aliceblue;
+    }
+    ul li a:hover{
+        color: #635985;
+    }
+    h1{
+        text-align: center;
+        font-size: 1rem;
+        background-color: black;
+        margin: 0;
+    }
+    /*****************TERMINA EL HEADER************************/
+    /**************************FOOTER**************************/
+    
+    .redes{
+        width: 3rem;
+        list-style: none;
+    }
+    .FooterEstilos{
+        background-color: #18122B;
+        display: flex;
+        justify-content: space-evenly;
+        justify-items: center;
+        border: #000000 solid 0.3rem;
+    }
+    
+    
+    
+        /******************MAIN************************************/
+    body{background-color: #635985;
+        color: white;}
+    
+    .plan{width: 6rem;
+        border-radius: 50%;
+        border: #000000 solid 0.3rem;}
+        .plan:hover{width: 8rem;}
+    
+    .logoWeb{width: 2.5rem;
+        border-radius: 50%;} 
+    
+    article{background-color: #18122B;
+        height: 30vh;}
+    
+    .etiquetaTexto{padding-left: 2rem;
+    font-size: 0.6rem;}
+    
+    .logoPagina1{border-radius: 50%;
+    height: 8rem;}
+    
+    p{
+        font-size: 0.6rem;
+    }
+    h2{text-align: center;
+    font-size: 0.9rem;}
+    .listaTips li{
+        font-size: 0.8rem;
+    }
+    
+    /*******************planes de entrenamiento***********************/
+    .container-grid{
+        justify-content: center;
+        width:100%;
+        padding:1rem 1rem 1rem 1rem;
+        display: grid;
+        grid-template-columns:1fr  ;
+        grid-template-rows:1fr 1fr 1fr ; 
+    }
+    .plan-nutri{background-color: #18122B;
+        margin: 1rem 3rem 1rem 3rem;
+        padding:1rem 3rem 1rem 3rem;
+        border: #000000 0.5rem solid;
+        text-align: center;
+    }
+    .plan-body{background-color: #18122B;
+        margin: 1rem 3rem 1rem 3rem;
+        padding:1rem 3rem 1rem 3rem;
+        border: #000000 0.5rem solid;
+        text-align: center
+    }
+    .plan-power{background-color:#18122B ;
+        margin: 1rem 3rem 1rem 3rem;
+        padding:1rem 3rem 1rem 3rem;
+        border: #000000 0.5rem solid;
+        text-align: center
+    }
+    
+    .planesEntrenamiento{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #18122B;
+        margin: 1rem 3rem 1rem 3rem;
+        padding:1rem 3rem 1rem 3rem;
+        border: #000000 0.5rem solid;
+        
+    }
+    .planesEntrenamientoEspecificos{
+        height: 10rem;
+        width: 20rem;
+        text-align: center;
+    }
+    .planesEntrenamientoEspecificos:hover{
+        height: 8rem;
+        width: 16rem;
+        border: #ffffff 5px solid;
+    }
+    .PlanesTitulo{
+        text-align: center;
+        background-color: #000000;
+        margin: 0 3rem 0 3rem;
+        padding:1rem 3rem 1rem 3rem
+    }
+    /* **********************tienda************************************* */
+    
+    .Grid-tienda{
+        padding:3rem 0 3rem 0;
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template: repeat(4,40vh) / repeat(1,40vh);
+        column-gap: 15px;
+        row-gap: 10px;
+    }
+    .articuloVenta{
+        height: 8rem;
+        width: 8rem;
+        border-radius: 5%;
+        
+    }
+    .CardArticulo{
+        background-color: #18122B;
+        border: #000000 solid 0.5rem;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+    
+    /**********************Redes sociales****************************/
+    
+    .CardRedes{
+        padding:1rem 0 1rem 0;
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template: repeat(4,30vh) / repeat(1,40vh);
+        grid-area: 
+        "CardTwitter CardFacebook"
+        "CardWhatsapp CardInstagram"
+        ;
+        column-gap: 10px;
+        row-gap: 5px;
+    }
+    .CardTwitter{
+        margin: 0.5rem 1.5rem 0.5rem 1.5rem;
+        padding:0.5rem 1.5rem 0.5rem 1.5rem;
+        border: #000000 0.5rem solid;
+        text-align: center;
+        background-color: #18122B;
+    }
+    .CardFacebook{
+        margin: 0.5rem 1.5rem 0.5rem 1.5rem;
+        padding:0.5rem 1.5rem 0.5rem 1.5rem;
+        border: #000000 0.5rem solid;
+        text-align: center;
+        background-color: #18122B;
+    }
+    .CardWhatsapp{
+        margin: 0.5rem 1.5rem 0.5rem 1.5rem;
+        padding:0.5rem 1.5rem 0.5rem 1.5rem;
+        border: #000000 0.5rem solid;
+        text-align: center;
+        background-color: #18122B;
+    }
+    .CardInstagram{
+        margin: 0.5rem 1.5rem 0.5rem 1.5rem;
+        padding:0.5rem 1.5rem 0.5rem 1.5rem;
+        border: #000000 0.5rem solid;
+        text-align: center;
+        background-color: #18122B;
+    }
+    .LinkRedes{color: aliceblue;
+        text-decoration: none;
+        display: block;
+        font-size: 0.7rem;
+    }
+    
+    .LinkRedes:hover{color: #635985;
+        font-size: 1.4rem;}
+    
+    .redesGrande{border-radius: 50%;
+        height: 6rem;}
+    
+    button{font-size: 1rem;}
+    
+    .ContainerTips{
+        display: flex;
+        background-color: #18122B;
+        justify-content: center;
+        align-items: center;
+        margin: 0 3rem 0 3rem;
+        padding:1rem 3rem 1rem 3rem ;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    }

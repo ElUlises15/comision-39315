@@ -1,0 +1,26 @@
+.Grid-tienda{
+    padding:3rem 0rem 3rem 0rem;
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template: repeat(2,40vh) / repeat(2,60vh);
+    column-gap: 15px;
+    row-gap: 10px;
+}
+.articuloVenta{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 5%;
+    
+}
+.articuloVenta:hover{
+    width: 15rem;
+    height: 15rem;
+}
+.CardArticulo{
+    background-color: #18122B;
+    border: #000000 solid 1rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
